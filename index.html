@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./page/index.css">
+  <title>Drum Kit</title>
+</head>
+<body>
+  <main class="main">
+    <section class="background"></section>
+    <section class="little-boxes">
+      <div class="little-boxes__little-box" data-key="65">
+        <h2 class="little-boxes__title">A</h2>
+        <p class="little-boxes__sound">CLAP</p>
+      </div>
+      <div class="little-boxes__little-box" data-key="83">
+        <h2 class="little-boxes__title">S</h2>
+        <p class="little-boxes__sound">HIHAT</p>
+      </div>
+      <div class="little-boxes__little-box" data-key="68">
+        <h2 class="little-boxes__title">D</h2>
+        <p class="little-boxes__sound">KICK</p>
+      </div>
+      <div class="little-boxes__little-box" data-key="70">
+        <h2 class="little-boxes__title">F</h2>
+        <p class="little-boxes__sound">OPENHAT</p>
+      </div>
+      <div class="little-boxes__little-box" data-key="71">
+        <h2 class="little-boxes__title">G</h2>
+        <p class="little-boxes__sound">BOOM</p>
+      </div>
+      <div class="little-boxes__little-box" data-key="72">
+        <h2 class="little-boxes__title">H</h2>
+        <p class="little-boxes__sound">RIDE</p>
+      </div>
+      <div class="little-boxes__little-box" data-key="74">
+        <h2 class="little-boxes__title">J</h2>
+        <p class="little-boxes__sound">SNARE</p>
+      </div>
+      <div class="little-boxes__little-box" data-key="75">
+        <h2 class="little-boxes__title">K</h2>
+        <p class="little-boxes__sound">TOM</p>
+      </div>
+      <div class="little-boxes__little-box" data-key="76">
+        <h2 class="little-boxes__title">L</h2>
+        <p class="little-boxes__sound">TINK</p>
+      </div>
+      <div class="little-boxes__drummer"></div>
+    </section>
+  </main>
+
+  <audio data-key="65" src="./sounds/clap.wav"></audio>
+  <audio data-key="83" src="./sounds/hihat.wav"></audio>
+  <audio data-key="68" src="sounds/kick.wav"></audio>
+  <audio data-key="70" src="sounds/openhat.wav"></audio>
+  <audio data-key="71" src="sounds/boom.wav"></audio>
+  <audio data-key="72" src="sounds/ride.wav"></audio>
+  <audio data-key="74" src="sounds/snare.wav"></audio>
+  <audio data-key="75" src="sounds/tom.wav"></audio>
+  <audio data-key="76" src="sounds/tink.wav"></audio>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>

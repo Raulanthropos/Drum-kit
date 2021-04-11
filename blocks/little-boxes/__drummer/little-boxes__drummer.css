@@ -1,0 +1,23 @@
+.little-boxes__drummer {
+  width: 102.77px;
+  padding-top: 48px;
+  padding-bottom: 46px;
+  background-image: url(../../../images/stmpnk-little-drummer-boi.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  border-radius: 10px;
+  filter: drop-shadow( 0px 20px 3px gray);
+}
+
+@media screen and (max-width: 1279px) {
+  .little-boxes__drummer {
+    justify-self: center;
+  }
+}

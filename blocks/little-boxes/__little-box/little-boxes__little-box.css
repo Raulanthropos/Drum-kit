@@ -1,0 +1,19 @@
+.little-boxes__little-box {
+  width: auto;
+  height: auto;
+  color: #545454;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .little-boxes__little-box {
+    border-radius: 10px;
+  }
+}

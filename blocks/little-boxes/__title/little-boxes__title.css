@@ -1,0 +1,9 @@
+.little-boxes__title {
+  font-size: 36px;
+  color: #fff;
+  background-color: white;
+  background-image: linear-gradient(gray, black);
+  padding: 10px 40px 40px;
+  border-radius: 10px;
+  filter: drop-shadow( 0px 20px 3px gray);
+}
